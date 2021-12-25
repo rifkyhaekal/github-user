@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryLight">#494949</color>
+    <color name="colorPrimary">#222222</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorSecondaryLight">#cfffff</color>
+    <color name="colorSecondary">#9cdaf0</color>
+    <color name="colorSecondaryDark">#6ba8bd</color>
+    <color name="textContent">#f5f5f5</color>
+    <color name="textContentDark">#FFFFFFFF</color>
+    <color name="textContentLight">#FFFFFFFF</color>
+    <color name="bgAppbar">#222222</color>
+    <color name="transparent">#00000000</color>
+    <color name="favorite">#FFFFFFFF</color>
+    <color name="favoriteText">#000000</color>
+    <color name="tabLayout">#FFFFFFFF</color>
+
+</resources>

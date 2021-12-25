@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.haekalgithubuserapp.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_userDetailActivity"
+            app:destination="@id/userDetailActivity"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" >
+            <argument
+                android:name="id" />
+        </action>
+        <action
+            android:id="@+id/action_homeFragment_to_listFavoriteUserActivity"
+            app:destination="@id/listFavoriteUserActivity" />
+        <action
+            android:id="@+id/action_homeFragment_to_settingsActivity"
+            app:destination="@id/settingsActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/userDetailActivity"
+        android:name="com.example.haekalgithubuserapp.ui.detailuser.UserDetailActivity"
+        android:label="activity_user_detail"
+        tools:layout="@layout/activity_user_detail">
+        <argument
+            android:name="id"
+            app:argType="string" />
+    </activity>
+    <activity
+        android:id="@+id/listFavoriteUserActivity"
+        android:name="com.example.haekalgithubuserapp.ui.favoriteuser.ListFavoriteUserActivity"
+        android:label="activity_list_favorite_user"
+        tools:layout="@layout/activity_list_favorite_user" />
+    <activity
+        android:id="@+id/settingsActivity"
+        android:name="com.example.haekalgithubuserapp.ui.settings.SettingsActivity"
+        android:label="activity_settings"
+        tools:layout="@layout/activity_settings" />
+</navigation>

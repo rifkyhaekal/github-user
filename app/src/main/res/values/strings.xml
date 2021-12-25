@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">GitHub User</string>
+
+    <string name="example_username">\@Username</string>
+    <string name="example_name">Nama User</string>
+    <string name="example_location">Location</string>
+    <string name="example_company">Company</string>
+    <string name="example_repository">Repository</string>
+    <string name="welcome">Please find the user you want first, on the search menu above.</string>
+    <string name="no_result_found">Sorry, user not found.</string>
+    <string name="no_connection">Whoops! No internet connection. \n Please check your device connection and try again :(</string>
+    <string name="search">Search</string>
+    <string name="search_hint">Enter username...</string>
+    <string name="follower">%1$d Followers</string>
+    <string name="following">%1$d Following</string>
+    <string name="bio">Bio</string>
+    <string name="favorite">Favorite</string>
+    <string name="favorited">Favorited</string>
+    <string name="deleteFavoritedTitle">Remove %1$s from favorite list?</string>
+    <string name="deleteFavoritedMessage">The profile will no longer appear in the favorites user menu.</string>
+    <string name="yes"><b>Yes</b></string>
+    <string name="cancel"><b>Cancel</b></string>
+    <string name="favorite_user">Favorite User</string>
+    <string name="settings">Settings</string>
+    <string name="no_favorite_user">No favorite user yet.</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="display">Display</string>
+
+</resources>
